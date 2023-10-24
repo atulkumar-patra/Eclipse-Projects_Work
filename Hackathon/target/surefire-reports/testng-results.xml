@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54057" started-at="2021-08-23T03:53:24Z" finished-at="2021-08-23T03:54:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54057" started-at="2021-08-23T03:53:24Z" finished-at="2021-08-23T03:54:18Z">
+      <class name="com.testclass.displaybookshelves.validateDisplayBookshelves">
+        <test-method status="PASS" signature="initialiseSetup()[pri:0, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="initialiseSetup" is-config="true" duration-ms="4638" started-at="2021-08-23T03:53:24Z" finished-at="2021-08-23T03:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetup -->
+        <test-method status="PASS" signature="homePage()[pri:1, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="homePage" duration-ms="14251" started-at="2021-08-23T03:53:28Z" finished-at="2021-08-23T03:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="flushReports" is-config="true" duration-ms="444" started-at="2021-08-23T03:53:43Z" finished-at="2021-08-23T03:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="bookshelves()[pri:2, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="bookshelves" duration-ms="15760" started-at="2021-08-23T03:53:43Z" finished-at="2021-08-23T03:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookshelves -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="flushReports" is-config="true" duration-ms="28" started-at="2021-08-23T03:53:59Z" finished-at="2021-08-23T03:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="collectionMenu()[pri:3, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="collectionMenu" duration-ms="6019" started-at="2021-08-23T03:53:59Z" finished-at="2021-08-23T03:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectionMenu -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="flushReports" is-config="true" duration-ms="32" started-at="2021-08-23T03:54:05Z" finished-at="2021-08-23T03:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="validatingGiftCard()[pri:4, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="validatingGiftCard" duration-ms="12215" started-at="2021-08-23T03:54:05Z" finished-at="2021-08-23T03:54:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingGiftCard -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="flushReports" is-config="true" duration-ms="37" started-at="2021-08-23T03:54:17Z" finished-at="2021-08-23T03:54:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testclass.displaybookshelves.validateDisplayBookshelves@7ce3cb8e]" name="tearDown" is-config="true" duration-ms="622" started-at="2021-08-23T03:54:17Z" finished-at="2021-08-23T03:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testclass.displaybookshelves.validateDisplayBookshelves -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
