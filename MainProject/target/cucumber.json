@@ -1,0 +1,286 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Create Epic module",
+        "description": "",
+        "id": "epic-module-creation;create-epic-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3874696700,
+              "error_message": "java.lang.AssertionError: session not created: This version of ChromeDriver only supports Chrome version 93\nCurrent browser version is 118.0.5993.70 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-U91VT5D\u0027, ip: \u0027192.168.137.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x008EA2D3+2663123]\n\tOrdinal0 [0x0087A491+2204817]\n\tOrdinal0 [0x00762118+1057048]\n\tOrdinal0 [0x0078041A+1180698]\n\tOrdinal0 [0x0077C335+1164085]\n\tOrdinal0 [0x00779B7F+1153919]\n\tOrdinal0 [0x007A9D8F+1351055]\n\tOrdinal0 [0x007A99FA+1350138]\n\tOrdinal0 [0x007A589B+1333403]\n\tOrdinal0 [0x00781F74+1187700]\n\tOrdinal0 [0x00782DC9+1191369]\n\tGetHandleVerifier [0x00A830D6+1610054]\n\tGetHandleVerifier [0x00B2B53B+2299307]\n\tGetHandleVerifier [0x00978DA9+519705]\n\tGetHandleVerifier [0x00977759+513993]\n\tOrdinal0 [0x0088112D+2232621]\n\tOrdinal0 [0x008855F8+2250232]\n\tOrdinal0 [0x00885732+2250546]\n\tOrdinal0 [0x0088E591+2286993]\n\tBaseThreadInitThunk [0x75F17BA9+25]\n\tRtlInitializeExceptionChain [0x771DBC5B+107]\n\tRtlClearBits [0x771DBBDF+191]\n\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat com.selenium.baseclass.baseClass.reportFail(baseClass.java:166)\r\n\tat com.selenium.baseclass.baseClass.invokeBrowser(baseClass.java:60)\r\n\tat com.selenium.stepdefinition.stepDefinition.the_user_is_on_signin_page(stepDefinition.java:27)\r\n\tat ✽.Given the user is on signin page(Features/epicModule.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "the user is on signin page",
+            "match": {
+              "location": "stepDefinition.the_user_is_on_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user enters valid details and clicks on signin",
+            "match": {
+              "location": "stepDefinition.the_user_enters_valid_details_and_clicks_on_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the user is on homePage",
+            "match": {
+              "location": "stepDefinition.the_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user hovers on menu",
+            "match": {
+              "location": "stepDefinition.the_user_hovers_on_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user clicks on project",
+            "match": {
+              "location": "stepDefinition.the_user_clicks_on_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the user is on projectPage",
+            "match": {
+              "location": "stepDefinition.the_user_is_on_projectpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the user hovers on execute menu",
+            "match": {
+              "location": "stepDefinition.the_user_hovers_on_execute_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the user clicks on epics",
+            "match": {
+              "location": "stepDefinition.the_user_clicks_on_epics()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "the user is on epicModulePage",
+            "match": {
+              "location": "stepDefinition.the_user_is_on_epicmodulepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Generating id in Epics module",
+        "description": "",
+        "id": "epic-module-creation;generating-id-in-epics-module;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3003663200,
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.selenium.pageclass.projectPage.gotoEpicModulePage()\" because \"com.selenium.stepdefinition.stepDefinition.projectpage\" is null\r\n\tat com.selenium.stepdefinition.stepDefinition.the_user_is_on_epicmodulepage(stepDefinition.java:49)\r\n\tat ✽.Given the user is on epicModulePage(Features/epicModule.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "the user is on epicModulePage",
+            "match": {
+              "location": "stepDefinition.the_user_is_on_epicmodulepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks on add button",
+            "match": {
+              "location": "stepDefinition.the_user_clicks_on_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user enters Name Testing Team2 ,Date 03-Sep-2021 ,Description Description ,Priority Medium and Size M in respective fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing Team2",
+                  "offset": 21
+                },
+                {
+                  "val": "03-Sep-2021",
+                  "offset": 41
+                },
+                {
+                  "val": "Description",
+                  "offset": 66
+                },
+                {
+                  "val": "Medium",
+                  "offset": 88
+                },
+                {
+                  "val": "M",
+                  "offset": 104
+                }
+              ],
+              "location": "stepDefinition.the_user_enters_name_date_description_priority_and_size_in_respective_fields(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user clicks on Save button",
+            "match": {
+              "location": "stepDefinition.the_user_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "the Epic id is generated",
+            "match": {
+              "location": "stepDefinition.the_epic_id_is_generated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user enters invalid details or leaves mandatory fields empty",
+            "match": {
+              "location": "stepDefinition.user_enters_invalid_details_or_leaves_mandatory_fields_empty()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user clears the name field",
+            "match": {
+              "location": "stepDefinition.user_clears_the_name_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user clears the date field",
+            "match": {
+              "location": "stepDefinition.user_clears_the_date_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user clicks on Save button",
+            "match": {
+              "location": "stepDefinition.user_clicks_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the user handles the Alerts",
+            "match": {
+              "location": "stepDefinition.the_user_handles_the_alerts()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Epic module creation",
+    "description": "",
+    "id": "epic-module-creation",
+    "keyword": "Feature",
+    "uri": "Features/epicModule.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]

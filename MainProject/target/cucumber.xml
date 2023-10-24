@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.87836">
+    <testcase classname="Epic module creation" name="Create Epic module" time="3.874697">
+        <failure message="java.lang.AssertionError: session not created: This version of ChromeDriver only supports Chrome version 93&#10;Current browser version is 118.0.5993.70 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-U91VT5D', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x008EA2D3+2663123]&#10;&#9;Ordinal0 [0x0087A491+2204817]&#10;&#9;Ordinal0 [0x00762118+1057048]&#10;&#9;Ordinal0 [0x0078041A+1180698]&#10;&#9;Ordinal0 [0x0077C335+1164085]&#10;&#9;Ordinal0 [0x00779B7F+1153919]&#10;&#9;Ordinal0 [0x007A9D8F+1351055]&#10;&#9;Ordinal0 [0x007A99FA+1350138]&#10;&#9;Ordinal0 [0x007A589B+1333403]&#10;&#9;Ordinal0 [0x00781F74+1187700]&#10;&#9;Ordinal0 [0x00782DC9+1191369]&#10;&#9;GetHandleVerifier [0x00A830D6+1610054]&#10;&#9;GetHandleVerifier [0x00B2B53B+2299307]&#10;&#9;GetHandleVerifier [0x00978DA9+519705]&#10;&#9;GetHandleVerifier [0x00977759+513993]&#10;&#9;Ordinal0 [0x0088112D+2232621]&#10;&#9;Ordinal0 [0x008855F8+2250232]&#10;&#9;Ordinal0 [0x00885732+2250546]&#10;&#9;Ordinal0 [0x0088E591+2286993]&#10;&#9;BaseThreadInitThunk [0x75F17BA9+25]&#10;&#9;RtlInitializeExceptionChain [0x771DBC5B+107]&#10;&#9;RtlClearBits [0x771DBBDF+191]&#10;&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:99)&#13;&#10;&#9;at com.selenium.baseclass.baseClass.reportFail(baseClass.java:166)&#13;&#10;&#9;at com.selenium.baseclass.baseClass.invokeBrowser(baseClass.java:60)&#13;&#10;&#9;at com.selenium.stepdefinition.stepDefinition.the_user_is_on_signin_page(stepDefinition.java:27)&#13;&#10;&#9;at ✽.Given the user is on signin page(Features/epicModule.feature:6)&#13;&#10;"><![CDATA[Given the user is on signin page............................................failed
+And the user enters valid details and clicks on signin......................skipped
+Then the user is on homePage................................................skipped
+And the user hovers on menu.................................................skipped
+And the user clicks on project..............................................skipped
+Then the user is on projectPage.............................................skipped
+And the user hovers on execute menu.........................................skipped
+And the user clicks on epics................................................skipped
+Then the user is on epicModulePage..........................................skipped
+
+StackTrace:
+java.lang.AssertionError: session not created: This version of ChromeDriver only supports Chrome version 93
+Current browser version is 118.0.5993.70 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U91VT5D', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x008EA2D3+2663123]
+	Ordinal0 [0x0087A491+2204817]
+	Ordinal0 [0x00762118+1057048]
+	Ordinal0 [0x0078041A+1180698]
+	Ordinal0 [0x0077C335+1164085]
+	Ordinal0 [0x00779B7F+1153919]
+	Ordinal0 [0x007A9D8F+1351055]
+	Ordinal0 [0x007A99FA+1350138]
+	Ordinal0 [0x007A589B+1333403]
+	Ordinal0 [0x00781F74+1187700]
+	Ordinal0 [0x00782DC9+1191369]
+	GetHandleVerifier [0x00A830D6+1610054]
+	GetHandleVerifier [0x00B2B53B+2299307]
+	GetHandleVerifier [0x00978DA9+519705]
+	GetHandleVerifier [0x00977759+513993]
+	Ordinal0 [0x0088112D+2232621]
+	Ordinal0 [0x008855F8+2250232]
+	Ordinal0 [0x00885732+2250546]
+	Ordinal0 [0x0088E591+2286993]
+	BaseThreadInitThunk [0x75F17BA9+25]
+	RtlInitializeExceptionChain [0x771DBC5B+107]
+	RtlClearBits [0x771DBBDF+191]
+
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.selenium.baseclass.baseClass.reportFail(baseClass.java:166)
+	at com.selenium.baseclass.baseClass.invokeBrowser(baseClass.java:60)
+	at com.selenium.stepdefinition.stepDefinition.the_user_is_on_signin_page(stepDefinition.java:27)
+	at ✽.Given the user is on signin page(Features/epicModule.feature:6)
+]]></failure>
+    </testcase>
+    <testcase classname="Epic module creation" name="Generating id in Epics module" time="3.003663">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.selenium.pageclass.projectPage.gotoEpicModulePage()&quot; because &quot;com.selenium.stepdefinition.stepDefinition.projectpage&quot; is null&#13;&#10;&#9;at com.selenium.stepdefinition.stepDefinition.the_user_is_on_epicmodulepage(stepDefinition.java:49)&#13;&#10;&#9;at ✽.Given the user is on epicModulePage(Features/epicModule.feature:19)&#13;&#10;"><![CDATA[Given the user is on epicModulePage.........................................failed
+And the user clicks on add button...........................................skipped
+And the user enters Name Testing Team2 ,Date 03-Sep-2021 ,Description Description ,Priority Medium and Size M in respective fields.skipped
+And the user clicks on Save button..........................................skipped
+Then the Epic id is generated...............................................skipped
+And user enters invalid details or leaves mandatory fields empty............skipped
+And user clears the name field..............................................skipped
+And user clears the date field..............................................skipped
+Then user clicks on Save button.............................................skipped
+Then the user handles the Alerts............................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.selenium.pageclass.projectPage.gotoEpicModulePage()" because "com.selenium.stepdefinition.stepDefinition.projectpage" is null
+	at com.selenium.stepdefinition.stepDefinition.the_user_is_on_epicmodulepage(stepDefinition.java:49)
+	at ✽.Given the user is on epicModulePage(Features/epicModule.feature:19)
+]]></failure>
+    </testcase>
+</testsuite>
